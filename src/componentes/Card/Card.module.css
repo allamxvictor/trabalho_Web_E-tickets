@@ -1,0 +1,92 @@
+.card {
+  height: 200px;
+  width: 300px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 15px;
+  margin: 50px 0 0 50px; /*remover dps*/
+  box-shadow: 2px 2px 4px var(--btn-lightBlack);
+}
+
+/*Engloba as datas e textos do card em uma div*/
+.card_txt_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--white);
+  width: 100%;
+  height: 25%;
+}
+
+/*cidade do evento*/
+.card_info_evento span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--orange);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1px;
+}
+
+/*nome do evento*/
+.card_info_evento h3 {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: var(--txt-softBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
+
+/*local do evento*/
+.card_info_evento p {
+  height: 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gray-txt);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*dia semana*/
+.card_data_evento h3 {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--txt-softBlack);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+}
+
+/*dia mês*/
+.card_data_evento span {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: var(--txt-softBlack);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3px;
+  width: 5rem;
+  height: 1.5rem;
+}
+
+/* mês*/
+.card_data_evento p {
+  background-color: var(--orange);
+  color: var(--white);
+  width: 5rem;
+  height: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  font-weight: bolder;
+}

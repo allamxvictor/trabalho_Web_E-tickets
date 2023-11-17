@@ -1,0 +1,28 @@
+:root {
+  font-family: 'roboto', monospace, Helvetica, Arial, sans-serif;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --black: #171515;
+  --btn-lightBlack: #464242;
+  --txt-softBlack: #312f2f;
+  --containerBG: #e6dd92;
+  --orange: #E67C1B;
+  --gray-txt: #909090;
+  --white:#ffff;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--containerBG);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
