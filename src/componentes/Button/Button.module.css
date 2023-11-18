@@ -1,0 +1,11 @@
+.button_styles { /*TODO: Configurar efeito visual de click e mouse em forma de mão*/
+    width: 10vw;
+    height: 5vh;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid var(--orange);
+    background-color: var(--orange);
+    font-size: larger;
+    font-weight: 600;
+    color: var(--white);
+}

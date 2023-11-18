@@ -1,4 +1,5 @@
 import styles from "./FormCadastro.module.css"
+import Button from "../Button"
 
 export default function FormCadastro() {
     return (
@@ -14,7 +15,8 @@ export default function FormCadastro() {
                 <input type="text" placeholder="Senha" />
             </form>
 
-            <input type="button" value="Cadastrar" className={styles.button} />
+            <Button button_txt = "Cadastrar" />
+            
 
         </section>
     )
