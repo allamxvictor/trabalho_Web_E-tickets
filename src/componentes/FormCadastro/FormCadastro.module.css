@@ -23,7 +23,7 @@
     padding-top: 10%;
 }
 
-.form_inputs input { /*configurar cor da borda para laranja quando clicado*/ 
+.form_inputs input { /*TODO: configurar cor da borda para laranja quando clicado*/ 
     margin-bottom: 15px;
     width: 23vw;
     height: 5vh;
@@ -35,7 +35,7 @@
     font-size: large;
 }
 
-.button { /* Configurar efeito visual de click*/
+.button { /*TODO: Configurar efeito visual de click*/
     width: 10vw;
     height: 5vh;
     margin-top: 5px;
