@@ -1,12 +1,12 @@
 import './App.css'
-import Header from './Componentes/Header'
-import Card from './componentes/Card'
+import FormCadastro from './componentes/FormCadastro'
+//import Header from './Componentes/Header'
+//import Card from './componentes/Card'
 
 function App() {
   return (
     <>
-      <Header />
-      <Card />
+      <FormCadastro/>
 
     </>
   )
