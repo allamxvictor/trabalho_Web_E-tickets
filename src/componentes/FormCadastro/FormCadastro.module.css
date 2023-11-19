@@ -23,14 +23,16 @@
     padding-top: 10%;
 }
 
-.form_inputs input { /*TODO: configurar cor da borda para laranja quando clicado*/ 
+.form_inputs input { /* remover dps de substutuir os input do form pelos componentes de Input*/
     margin-bottom: 15px;
     width: 23vw;
     height: 5vh;
     border-radius: 10px;
     border: 1px solid var(--gray-txt);
-    display: flex;
     padding-left: 10px;
-    color: var(--gray-txt);
+    color: var(--txt-softBlack);
     font-size: large;
+}
+textarea:focus, input:focus {
+    outline-color: var(--orange);
 }

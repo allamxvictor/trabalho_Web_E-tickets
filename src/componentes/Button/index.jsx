@@ -1,19 +1,22 @@
 import styles from "./Button.module.css"
 import PropTypes from "prop-types"
 
-export default function Button({button_txt}) {
+export default function Button({ button_txt, width }) { // Pode-se ajustar o texto e a largura do botão com as props como string
     return (
         <>
-            <input type="button" value={button_txt} className={styles.button_styles} />
-
+            <input className={styles.button_styles}
+                type="button" value={button_txt}
+                style={{ width: width }} />
         </>
     )
 }
 
-Button.propTypes = {
-    button_txt: PropTypes.string
+Button.propTypes = {// tipo da prop
+    button_txt: PropTypes.string,
+    width: PropTypes.string
 }
 
-Button.defaultProps = {
-    button_txt: "Insert_Txt"
+Button.defaultProps = {// valores padrão do Button caso não sejam passado como props
+    button_txt: "Insert_Txt",
+    width: "10vw"
 }
