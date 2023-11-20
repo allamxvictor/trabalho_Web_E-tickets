@@ -10,7 +10,6 @@
   --black: #171515;
   --btn-lightBlack: #464242;
   --txt-softBlack: #312f2f;
-  --containerBG: #e6dd92;
   --orange: #E67C1B;
   --gray-txt: #909090;
   --white:#ffff;
@@ -18,7 +17,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--containerBG);
+  background-color: var(--white);
 }
 
 * {
