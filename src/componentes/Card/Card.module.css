@@ -8,7 +8,8 @@
   justify-content: space-around;
   border-radius: 15px;
   margin: 50px 0 0 50px; /*remover dps*/
-  box-shadow: 2px 2px 4px var(--btn-lightBlack);
+  border: 1px solid var(--gray-txt);
+  box-shadow: 1px 1px 4px var(--gray-txt);
 }
 
 /*Engloba as datas e textos do card em uma div*/

@@ -7,4 +7,5 @@
     font-size: larger;
     font-weight: 600;
     color: var(--white);
+    cursor: pointer;
 }

@@ -8,7 +8,7 @@ export default function SearchBar() {
             <form>
                 <Input input_type="text"
                     input_placeholder="Busque seu evento, local ou cidade"
-                    input_width="25vw" />
+                    input_width="40vw" />
 
                 <Button button_txt="Buscar" width="7vw" />
             </form>

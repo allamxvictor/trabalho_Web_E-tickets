@@ -1,0 +1,20 @@
+.page_container{
+    background-color: var(--white);
+}
+
+.searchBar_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.cards_container{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100vw;
+    height: 81.7vh;
+
+}
