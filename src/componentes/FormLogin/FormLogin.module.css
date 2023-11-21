@@ -1,0 +1,17 @@
+.formLogin_style{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35vw;
+    height: 92.3vh;
+    background-color: var(--white);
+    padding-bottom: 30vh;   
+    border-left: 1px solid var(--gray-txt);
+}
+
+.formLogin_style h2{
+    margin-bottom: 20vh;
+    font-size: 40px;
+    
+}

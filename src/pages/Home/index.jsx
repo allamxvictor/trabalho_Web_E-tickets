@@ -1,5 +1,5 @@
-import Header from "../../Componentes/Header";
 import Card from "../../componentes/Card";
+import Header from "../../componentes/Header";
 import SearchBar from "../../componentes/SearchBar";
 import styles from "./Home.module.css"
 
@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <>
             <div className={styles.page_container}>
-                <Header />
+                <Header/>
                 <div className={styles.searchBar_container}>
                     <SearchBar />
 

@@ -1,0 +1,8 @@
+
+
+.loginForm_container{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 81.7vh;
+}
