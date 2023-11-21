@@ -16,7 +16,3 @@ export default function LoginPage() {
         </>
     )
 }
-
-/**.page_container{
-    height: 100vh;
-} */

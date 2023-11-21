@@ -4,14 +4,14 @@ import './App.css'
 //import SearchBar from './componentes/SearchBar'
 //import Header from './Componentes/Header'
 //import Card from './componentes/Card'
-//import Home from './pages/Home'
+import Home from './pages/Home'
 //import SignUp from "./pages/SignUp"
-import LoginPage from './pages/Login'
+//import LoginPage from './pages/Login'
 
 function App() {
   return (
     <>
-      <LoginPage />
+      <Home />
     </>
   )
 }
