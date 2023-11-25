@@ -23,7 +23,7 @@
     padding-top: 10%;
 }
 
-.form_inputs input { /* remover dps de substutuir os input do form pelos componentes de Input*/
+.form_inputs input {
     margin-bottom: 15px;
     width: 23vw;
     height: 5vh;

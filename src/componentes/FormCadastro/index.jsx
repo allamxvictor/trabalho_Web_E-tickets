@@ -4,7 +4,6 @@ import Button from "../Button"
 export default function FormCadastro() {
     return (
         
-        //TODO: substituir os imputs pelo componete Input, adcionar useState e configurar evento do botão.
         <section className={styles.form_container}>
             <h2>Crie sua conta</h2>
 

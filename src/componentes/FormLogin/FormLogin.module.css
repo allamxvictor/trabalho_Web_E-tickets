@@ -15,3 +15,31 @@
     font-size: 40px;
     
 }
+
+.formLogin_style input { 
+    margin-bottom: 15px;
+    width: 23vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: 1px solid var(--gray-txt);
+    padding-left: 10px;
+    color: var(--txt-softBlack);
+    font-size: large;
+}
+
+textarea:focus, input:focus {
+    outline-color: var(--orange);
+}
+
+.formLogin_style button {
+    height: 5vh;
+    width: 7vw;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 1px solid var(--orange);
+    background-color: var(--orange);
+    font-size: larger;
+    font-weight: 600;
+    color: var(--white);
+    cursor: pointer;
+}

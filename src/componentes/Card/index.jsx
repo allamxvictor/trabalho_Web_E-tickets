@@ -24,7 +24,7 @@ export default function Card({imgDoEvento, diaDaSemana, diaDoMes, mes, cidadeDoE
     )
 }
 
-Card.prototypes = {
+Card.propTypes = {
     imgDoEvento: PropTypes.string,
     diaDaSemana: PropTypes.string.isRequired,
     diaDoMes: PropTypes.string.isRequired,

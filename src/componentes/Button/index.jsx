@@ -1,7 +1,7 @@
 import styles from "./Button.module.css"
 import PropTypes from "prop-types"
 
-export default function Button({ button_txt, width }) { // Pode-se ajustar o texto e a largura do botão com as props como string
+export default function Button({ button_txt, width }) { // após substituir pelo button padrão do html esse será deletado por nn ser funcional com funcões de eventos
     return (
         <>
             <input className={styles.button_styles}
