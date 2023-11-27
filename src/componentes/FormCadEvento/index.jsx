@@ -6,7 +6,7 @@ export default function FormCadEvento() {
     function handleCadastroEvento(event) {
         event.preventDefault()
 
-        console.log(nomeEvento, contato, cidadeEvento, dataEvento,
+        console.log(nomeEvento, cidadeEvento, dataEvento,
             localEvento, horarioEvento, organizadorEvento, descricao,
             qtdIngressos, valorIgresso) // apagar dps.
 
@@ -20,7 +20,6 @@ export default function FormCadEvento() {
     const [horarioEvento, setHorarioEvento] = useState()
     const [organizadorEvento, setOrganizadorEvento] = useState()
     const [descricao, setDescricao] = useState()
-    const [contato, setContato] = useState()
     const [qtdIngressos, setQtdIngressos] = useState()
     const [valorIgresso, setValorIngresso] = useState()
 
@@ -39,7 +38,6 @@ export default function FormCadEvento() {
                 <input type="text" placeholder="Quantidade de ingressos" onChange={(event) => setQtdIngressos(event.target.value)} />
                 <input type="text" placeholder="Valor do ingresso R$" onChange={(event) => setValorIngresso(event.target.value)} />
                 <input type="text" placeholder="Organizador do ingresso" onChange={(event) => setOrganizadorEvento(event.target.value)} />
-                <input type="tel" placeholder="Telefone para contato" onChange={(event) => setContato(event.target.value)} />
                 <input type="text-field" placeholder="descrição do evento" onChange={(event) => setDescricao(event.target.value)} />
 
                 <button type="submit" onClick={handleCadastroEvento}>Cadastrar</button>

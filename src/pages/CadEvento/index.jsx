@@ -1,15 +1,15 @@
-import FormLogin from "../../componentes/FormLogin"
+import FormCadEvento from "../../componentes/FormCadEvento"
 import Header from "../../componentes/Header"
-import styles from "./LoginPage.module.css"
+import styles from "./CadEvento.module.css"
 
-export default function LoginPage() {
+export default function CadEvento() {
 
     return (
         <>
 
             <Header />
             <div className={styles.loginForm_container}>
-                <FormLogin />
+                <FormCadEvento/>
 
             </div>
 
