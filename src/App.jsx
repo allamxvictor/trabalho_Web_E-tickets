@@ -1,4 +1,5 @@
 import './App.css'
+import ResumoCompra from './componentes/ResumoCompra'
 //import FormCadEvento from './componentes/FormCadEvento'
 //import FormLogin from './componentes/FormLogin'
 //import FormCadastro from './componentes/FormCadastro'
@@ -9,13 +10,13 @@ import './App.css'
 //import SignUp from "./pages/SignUp"
 //import LoginPage from './pages/Login'
 //import CadEvento from './pages/CadEvento'
-import AppRoutes from './routes'
+//import AppRoutes from './routes'
 
 function App() {
   return (
     <>
-      <AppRoutes/>
-      
+      <ResumoCompra />
+
     </>
   )
 }
