@@ -1,4 +1,5 @@
 import './App.css'
+import ResumoCompra from './componentes/ResumoCompra'
 //import FormCadEvento from './componentes/FormCadEvento'
 //import FormLogin from './componentes/FormLogin'
 //import FormCadastro from './componentes/FormCadastro'
@@ -8,12 +9,13 @@ import './App.css'
 //import Home from './pages/Home'
 //import SignUp from "./pages/SignUp"
 //import LoginPage from './pages/Login'
-import CadEvento from './pages/CadEvento'
+//import CadEvento from './pages/CadEvento'
+
 
 function App() {
   return (
     <>
-      <CadEvento />
+      <ResumoCompra />
 
     </>
   )
