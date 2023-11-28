@@ -8,12 +8,13 @@ import './App.css'
 //import Home from './pages/Home'
 //import SignUp from "./pages/SignUp"
 //import LoginPage from './pages/Login'
-import CadEvento from './pages/CadEvento'
+//import CadEvento from './pages/CadEvento'
+import AppRoutes from './routes'
 
 function App() {
   return (
     <>
-      <CadEvento/>
+      <AppRoutes/>
       
     </>
   )
