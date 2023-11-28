@@ -13,8 +13,8 @@ import CadEvento from './pages/CadEvento'
 function App() {
   return (
     <>
-      <CadEvento/>
-      
+      <CadEvento />
+
     </>
   )
 }
