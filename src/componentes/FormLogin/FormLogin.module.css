@@ -43,3 +43,14 @@ textarea:focus, input:focus {
     color: var(--white);
     cursor: pointer;
 }
+
+.formLogin_style p{
+    padding-top: 5%;
+    font-weight: 500;
+    color: var(--txt-softBlack);
+}
+
+.formLogin_style a{
+    color: var(--orange);
+    text-decoration: none;
+}

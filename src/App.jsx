@@ -13,7 +13,7 @@ import DetalhesCompra from './componentes/DetalhesCompra'
 //import SignUp from "./pages/SignUp"
 //import LoginPage from './pages/Login'
 //import CadEvento from './pages/CadEvento'
-
+//import AppRoutes from './routes'
 
 function App() {
   return (

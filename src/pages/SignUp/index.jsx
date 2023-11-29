@@ -1,9 +1,9 @@
 import styles from "./SignUp.module.css"
-import Header from "../../Componentes/Header"
+import Header from "../../componentes/Header"
 import FormCadastro from "../../componentes/FormCadastro"
 
 
-export default function Home() {
+export default function SignUp() {
     return (
         <>
             <div>
