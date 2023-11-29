@@ -1,5 +1,8 @@
 import './App.css'
-import ResumoCompra from './componentes/ResumoCompra'
+import DetalhesCompra from './componentes/DetalhesCompra'
+//import IngressosDisponiveis from './componentes/IngresosDisponiveis.jsx'
+//import CartaoCompra from './componentes/CompraCartao'
+//nimport ResumoCompra from './componentes/ResumoCompra'
 //import FormCadEvento from './componentes/FormCadEvento'
 //import FormLogin from './componentes/FormLogin'
 //import FormCadastro from './componentes/FormCadastro'
@@ -15,7 +18,7 @@ import ResumoCompra from './componentes/ResumoCompra'
 function App() {
   return (
     <>
-      <ResumoCompra />
+      <DetalhesCompra/>
 
     </>
   )
