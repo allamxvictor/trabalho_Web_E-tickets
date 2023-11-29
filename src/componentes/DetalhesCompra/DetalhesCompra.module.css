@@ -9,14 +9,12 @@
     border-radius: 31px;
     border: 1px #909090 solid;
 }
-
 .detalhesCompraInfo {
     text-align: left;
     justify-content: space-between;
     margin: 40px auto;
     padding: 20px;
 }
-
 .detalhesCompraResumo {
     flex: 1;
     text-align: left;

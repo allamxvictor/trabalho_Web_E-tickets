@@ -30,7 +30,6 @@ const IngressosDisponiveis = () => {
           onChange={(e) => setQuantidade(e.target.value)}
           min="1"
         />
-
         <button type="button" onClick={handleCompra}>
           Comprar
         </button>
@@ -38,5 +37,4 @@ const IngressosDisponiveis = () => {
     </div>
   );
 };
-
 export default IngressosDisponiveis;

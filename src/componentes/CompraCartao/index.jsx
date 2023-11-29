@@ -12,7 +12,6 @@ const CartaoCompra = () => {
 
     const formattedValue = e.target.value.replace(/\D/g, '');
 
-
     const formattedNumber = formattedValue.match(/.{1,4}/g)?.join(' ') || '';
 
     setNumeroCartao(formattedNumber);

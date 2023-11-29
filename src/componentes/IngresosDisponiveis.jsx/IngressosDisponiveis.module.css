@@ -1,53 +1,46 @@
 .ingressosDisponiveis {
-    width: 400px;
-    background: white;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    padding: 20px;
-    margin: 20px;
-  }
-  
-  .ingressosDisponiveis h3 {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .ingressosDisponiveis p {
-    margin-bottom: 10px;
-  }
-  
-  .ingressosDisponiveis form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .ingressosDisponiveis label {
-    margin-bottom: 8px;
-    font-size: 16px;
-  }
-  
-  .ingressosDisponiveis select,
-  .ingressosDisponiveis input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 15px;
-    background: #FFFCFC;
-    border-radius: 15px;
-    border: 1px #909090 solid;
-  }
-  
-  .ingressosDisponiveis input[type="number"] {
-    width: 50px;
-  }
-  
-  .ingressosDisponiveis button {
-    width: 50%;
-    padding: 12px;
-    background: #E67C1B;
-    border-radius: 15px;
-    color: white;
-    border: none;
-    cursor: pointer;
-    align-self: center; 
-  }
-  
+  width: 400px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+}
+.ingressosDisponiveis h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ingressosDisponiveis p {
+  margin-bottom: 10px;
+}
+.ingressosDisponiveis form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ingressosDisponiveis label {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.ingressosDisponiveis select,
+.ingressosDisponiveis input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  background: #FFFCFC;
+  border-radius: 15px;
+  border: 1px #909090 solid;
+}
+.ingressosDisponiveis input[type="number"] {
+  width: 50px;
+}
+.ingressosDisponiveis button {
+  width: 50%;
+  padding: 12px;
+  background: #E67C1B;
+  border-radius: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-self: center;
+}
