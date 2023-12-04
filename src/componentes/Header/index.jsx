@@ -7,6 +7,7 @@ export default function Header(){
             <h1><Link to="/">E-tickets</Link></h1>
             <nav>
                 <Link to="/Login">Entrar</Link>
+                <Link to="/cadEvento">Cadastrar Evento</Link>
             </nav>
         </header>
     )
