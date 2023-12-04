@@ -1,5 +1,5 @@
 const initialState = {
-    currentEvento: ""
+    currentEvento: "" // dados cadastrados no formCadEvento
 }
 
 

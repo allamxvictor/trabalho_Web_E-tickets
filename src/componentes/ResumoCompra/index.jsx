@@ -1,8 +1,7 @@
-// ResumoCompra.jsx
-
-import React, { useState } from 'react';
+import React, { useState } from 'react'; // TODO: verificar causa de aviso de não uso.
 import styles from './ResumoCompra.module.css';
 
+//TODO: criar um reducer para esses dados.
 const ResumoCompra = ({ subTotal, taxa, total }) => {
   const [selectedOption, setSelectedOption] = useState('');
 

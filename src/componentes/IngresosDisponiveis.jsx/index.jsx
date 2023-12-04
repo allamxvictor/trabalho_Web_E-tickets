@@ -1,12 +1,13 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'; //TODO: verificar causa de aviso de não uso.
 import styles from './IngressosDisponiveis.module.css';
 
+//TODO: criar um reducer para esses dados.
 const IngressosDisponiveis = () => {
   const [tipoIngresso, setTipoIngresso] = useState('inteira');
   const [quantidade, setQuantidade] = useState(1);
 
   const handleCompra = () => {
-    
+
     console.log(`Compra de ${quantidade} ingresso(s) do tipo ${tipoIngresso}`);
   };
 
@@ -15,7 +16,7 @@ const IngressosDisponiveis = () => {
       <h3>Ingressos Disponíveis</h3>
       <p>Descrição do evento:</p>
       <p>Lote: Lote 1</p>
-      
+
       <form>
         <label>Tipo de Ingresso:</label>
         <select value={tipoIngresso} onChange={(e) => setTipoIngresso(e.target.value)}>

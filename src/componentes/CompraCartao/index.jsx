@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react';// TODO: verificar causa de aviso de não uso. 
 import styles from './CartaoCompra.module.css';
 
 const CartaoCompra = () => {

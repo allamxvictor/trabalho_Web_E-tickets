@@ -4,6 +4,7 @@ import {Link} from "react-router-dom"
 
 export default function FormLogin() {
 
+    //TODO: criar um reducer para esses dados.
     const [user, setUser] = useState()
     const [senha, setSenha] = useState()
 

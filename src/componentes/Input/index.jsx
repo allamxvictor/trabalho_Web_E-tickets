@@ -1,6 +1,8 @@
 import styles from "./Input.module.css"
 import PropTypes from "prop-types"
 
+
+// Não está funcional! Corrigir cód dps...
 export default function Input({ input_type, input_placeholder, input_id, input_name, input_width}) {
     return (
 
